@@ -1,0 +1,41 @@
+* {margin: auto;}
+
+hr {
+	width: 98%;
+	color: green;
+	margin-top: 10px;
+}
+
+#div_all {
+	width: 29%;
+	height: 200px;
+	margin-top: 37px;
+	float: left;
+	margin-left: 100px;
+}
+
+#div_img {
+	float: left;
+}
+
+#div_word {
+	margin-left: 20px;
+	float: right;
+}
+
+#p_nowtime {
+	margin-top: 20px;
+	font-size: 12px;
+}
+
+#p_admin {
+	margin-top: 12px;
+	font-size: 13px;
+	font-weight: 900;
+	font-family: 黑体;
+}
+
+#p_welcome {
+	margin-top: 12px;
+	font-size: 12px;
+}

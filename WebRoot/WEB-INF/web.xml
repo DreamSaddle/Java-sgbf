@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0"
+    xmlns="http://java.sun.com/xml/ns/javaee"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+  <servlet>
+    <servlet-name>AdminInfoServlet</servlet-name>
+    <servlet-class>sgbf.servlet.AdminInfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>CustomerInfoServlet</servlet-name>
+    <servlet-class>sgbf.servlet.CustomerInfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GoodsTypeServlet</servlet-name>
+    <servlet-class>sgbf.servlet.GoodsTypeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GoodsInfoServlet</servlet-name>
+    <servlet-class>sgbf.servlet.GoodsInfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>goodsInfoPageBeanServlet</servlet-name>
+    <servlet-class>sgbf.servlet.GoodsInfoPageBeanServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GoodsInfoAddUpdateServlet</servlet-name>
+    <servlet-class>sgbf.servlet.GoodsInfoAddUpdateServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>BulletinInfoServlet</servlet-name>
+    <servlet-class>sgbf.servlet.BulletinInfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>OrderDetailInfoServlet</servlet-name>
+    <servlet-class>sgbf.servlet.OrderDetailInfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>BuyCarServlet</servlet-name>
+    <servlet-class>sgbf.servlet.BuyCarServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>OrderInfoServlet</servlet-name>
+    <servlet-class>sgbf.servlet.OrderInfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>CustomerDetailInfoServlet</servlet-name>
+    <servlet-class>sgbf.servlet.CustomerDetailInfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>VerifyCodeServlet</servlet-name>
+    <servlet-class>sgbf.servlet.VerifyCodeServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>AdminInfoServlet</servlet-name>
+    <url-pattern>/adminInfoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CustomerInfoServlet</servlet-name>
+    <url-pattern>/customerInfoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GoodsTypeServlet</servlet-name>
+    <url-pattern>/goodsTypeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GoodsInfoServlet</servlet-name>
+    <url-pattern>/goodsInfoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>goodsInfoPageBeanServlet</servlet-name>
+    <url-pattern>/goodsInfoPageBeanServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GoodsInfoAddUpdateServlet</servlet-name>
+    <url-pattern>/goodsInfoAddUpdateServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BulletinInfoServlet</servlet-name>
+    <url-pattern>/bulletinInfoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>OrderDetailInfoServlet</servlet-name>
+    <url-pattern>/orderDetailInfoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BuyCarServlet</servlet-name>
+    <url-pattern>/buyCarServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>OrderInfoServlet</servlet-name>
+    <url-pattern>/orderInfoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CustomerDetailInfoServlet</servlet-name>
+    <url-pattern>/customerDetailInfoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>VerifyCodeServlet</servlet-name>
+    <url-pattern>/verifyCodeServlet</url-pattern>
+  </servlet-mapping>
+
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>

@@ -1,0 +1,55 @@
+* {margin: auto;}
+
+body {
+	background-color: #CFE8D6;
+}
+
+#div_title {
+	height: 30px;
+	float: left;
+	margin-top: 40px;
+	margin-left: 30px;
+	line-height: 30px;
+}
+#admin_title a {
+	text-decoration: none;
+	color: #C1B8B8;
+}
+#admin_title a:hover {
+	color: #E15D2E;
+	cursor: pointer;
+}
+
+#div_title sub {
+	color: white;
+	font-size: 12px;
+}
+#div_title sub:hover {
+	color: #3A8E61;
+	cursor: progress;
+}
+
+#div_title img {
+	width: 36px;
+	height: 26px;
+}
+
+#div_admin {
+	float: right;
+	margin-top: 50px;
+	margin-right: 60px;
+}
+
+.wel_admin {
+	font-size: 16px;
+	font-family: 黑体;
+	color: #959393;
+	font-weight: 800;
+}
+
+#adminName {
+	font-size: 16px;
+	font-family: 黑体;
+	color: #10AFFF;
+	font-weight: 800;
+}

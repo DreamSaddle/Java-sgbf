@@ -1,0 +1,28 @@
+* {margin: auto;}
+
+#banner {
+	width:100%;
+	height:330px;
+	background: url("../images/hban.jpg") repeat center center;
+}
+
+#news_con {
+	width: 100%;
+	height: 581px;
+}
+.news_ones {
+	width: 80%;
+	height: 60px;
+	margin-top: 10px;
+	border-bottom: 1px dashed gray;
+}
+.news_ones_time {
+	width: 5%;
+	height: 50px;
+	float: left;
+}
+.news_ones_con {
+	width: 79%;
+	height: 100%;
+	float: right;
+}

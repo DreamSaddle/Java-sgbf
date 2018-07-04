@@ -1,0 +1,71 @@
+*{margin: auto;}
+
+div{border:0px solid red;}
+
+body {
+	background-image: url(../images/login_bg.jpg);
+}
+
+#login_div {
+	width: 533px;
+	height: 360px;
+	margin-left: 800px;
+	margin-top: 149px;
+	background-color: #F2EEEB;
+}
+
+#login_logo {
+	width: 100%;
+	height: 150px;
+	text-align: center;
+	line-height: 193px;
+}
+#login_logo img {
+	float: left;
+	margin-top: 40px;
+	margin-left: 20px;
+}
+#login_logo h1 {
+	color: green;
+}
+#login_div table {
+	width: 74%;
+	height: 190px;
+	margin-top: 10px;
+	text-align: center;
+}
+
+.hint_txt {
+	width: 210px;
+	color: #1D8554;
+	font-size: 20px;
+	font-family: 隶书;
+	text-align: right;
+}
+
+.login_txt {
+	width: 300px;
+	height: 30px;
+	line-height: 30px;
+	float: left;
+	border: 1px solid green;
+}
+
+#login_btn {
+	width: 150px;
+	height: 36px;
+	color: green;
+	cursor: pointer;
+	line-height: 36px;
+	border-radius: 4px;
+	font-size: 16px;
+	font-family: 黑体;
+	font-weight: 900;
+	border: 1px solid green;
+	background-color: white;
+}
+#login_btn:hover {
+	background-color: green;
+	border: 1px solid white;
+	color: white;
+}

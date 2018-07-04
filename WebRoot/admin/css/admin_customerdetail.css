@@ -1,0 +1,253 @@
+* {margin: auto;}
+
+div {border: 1px solid #D7D0D0;}
+a {text-decoration: none;}
+a:hover {color: green;}
+
+#detail_top {
+	width: 99%;
+	height: 41px;
+	line-height: 41px;
+	border-radius: 4px;
+	margin-top: 5px;
+	margin-left: 10px;
+}
+
+#detail_top img {
+	width: 30px;
+	height: 30px;
+	margin-left: 20px;
+}
+
+#detail_top strong {
+	margin-left: 9px;
+	margin-top: 0px;
+}
+
+#now_page {
+	color: green;
+}
+
+
+#detail_search {
+	width: 99%;
+	height: 50px;
+	line-height: 50px;
+	border-radius: 4px;
+	margin-top: 6px;
+	margin-left: 10px;
+	background-color: #EDF9FA;
+}
+
+#detail_search_button {
+	width: 90px;
+	height: 30px;
+	line-height: 30px;
+	border: 0px;
+	background-color: #6BC135;
+	color: white;
+	border-radius: 4px;
+	margin-right: 100px;
+	margin-top: 10px;
+	float: right;
+	text-align: center;
+}
+#detail_search_button a {
+	color: white;
+}
+
+#detail_search_button:hover {
+	background-color: green;
+	border: 1px solid green;
+	color: green;
+}
+
+#detail_search span {
+	margin-left: 20px;
+	font-size: 13px;
+	color: green;
+}
+
+#detail_search_txt {
+	width: 250px;
+	height: 30px;
+	line-height: 30px;
+	border: 1px solid green;
+	border-radius: 4px;
+}
+
+#detail_search_btn {
+	width: 90px;
+	height: 30px;
+	line-height: 30px;
+	border: 0px;
+	border-radius: 4px;
+	background-color: #6BC135;
+	color: white;
+	font-size: 16px;
+	font-family: 黑体;
+	font-weight: 700px;
+	cursor: pointer;
+	margin-left: 10px;
+}
+
+#show_table {
+	width: 99%;
+	border: 1px solid #D1C3C3;
+	margin-top: 6px;
+	margin-left: 10px;
+}
+
+#show_table tbody tr {
+	height: 23px;
+	line-height: 23px;
+	text-align: center;
+}
+
+#show_table tbody tr th {
+	border-right: 2px solid rgba(209, 218, 223, 0.4);
+	color: green;
+}
+
+#show_table tbody tr td {
+	font-size: 12px;
+}
+
+
+/**商品操作按钮图标大小**/
+.type_handimg {
+	width: 20px;
+	height: 20px;
+}
+
+/**添加商品类型table布局**/
+#typeAdd_table {
+	width: 500px;
+	border: 0px solid red;
+	margin-top: 100px;
+}
+
+#typeAdd_table tbody tr td {
+	color: green;
+}
+
+#typeAdd_table_txt {
+	width: 250px;
+	height: 30px;
+	line-height: 30px;
+	border: 1px solid green;
+	border-radius: 4px;
+	float: left;
+}
+
+#typeAdd_table_btn {
+	width: 90px;
+	height: 30px;
+	line-height: 30px;
+	border: 1px solid green;
+	border-radius: 4px;
+	background-color: white;
+	color: green;
+	font-size: 16px;
+	font-family: 黑体;
+	font-weight: 700px;
+	cursor: pointer;
+	margin-left: 0px;
+}
+
+#typeAdd_table_btn:hover {
+	border: 0px;
+	background-color: green;
+	color: white;
+}
+
+
+
+/**商品信息页面跳转文本框和按钮**/
+#pagejump_txt {
+	width: 150px;
+	height: 20px;
+	line-height: 20px;
+	border: 1px solid green;
+	border-radius: 2px;
+}
+#pagejump_btn {
+	width: 50px;
+	height: 20px;
+	line-height: 20px;
+	border-radius: 2px;
+	border: 1px solid green;
+	background-color: #C0CECA;
+	margin-left: 10px;
+	font-family: 黑体;
+	font-size: 12px;
+	color: green;
+	text-align: center;
+}
+#pagejump_btn:hover {
+	cursor: pointer;
+	border: 0px;
+	background-color: green;
+	color: white;
+}
+
+
+/**添加商品表格**/
+#goodAdd_table {
+	width: 500px;
+	margin-top: 29px;
+	border: 0px solid red;
+}
+#goodAdd_table tr {
+	width: 100%;
+	height: 32px;
+	line-height: 32px;
+	margin-top: 10px;
+}
+.title_td {
+	width: 100px;
+	text-align: right;
+	color: green;
+	font-size: 14px;
+	font-family: 黑体;
+}
+#goodAdd_table select, .input_txt {
+	width: 200px;
+	height: 20px;
+	line-height: 20px;
+	border-radius: 2px;
+	border: 1px solid green;
+}
+#input_file {
+
+} 
+#input_sub {
+	width: 90px;
+	height: 30px;
+	line-height: 30px;
+	margin-left: 100px;
+	border-radius: 3px;
+	border: 1px solid green;
+	background-color: #80C499;
+	color: white;
+	cursor: pointer;
+}
+#input_sub:hover {
+	border: 1px solid #105E10;
+	background-color: white;
+	color: green;
+}
+
+
+/**商品详细信息文本框**/
+.input_txt_readyonly {
+	width: 200px;
+	height: 20px;
+	line-height: 20px;
+	border-radius: 2px;
+	border: 0px solid green;
+}
+
+.mouseover_tr td {
+	color: red;
+}

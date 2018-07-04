@@ -1,0 +1,33 @@
+*{margin: auto;}
+
+a {
+	text-decoration: none;
+}
+
+body {
+	background-color: #EBEDCF;
+}
+
+table {
+	margin-left: -36px;
+}
+
+tr {
+	width: 200px;
+	margin-top: 10px;
+	border: 0px solid green;
+}
+
+td {
+	width: 200px;
+	height: 30px;
+	line-height: 30px;
+	text-align: left;
+}
+
+td a {
+	color: green;
+	font-size: 27px;
+	font-family: 隶书;
+	margin-left: 48px;
+}

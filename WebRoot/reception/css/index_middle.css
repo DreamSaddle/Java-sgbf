@@ -1,0 +1,298 @@
+/*首页中部样式*/
+
+* {margin: auto;}
+
+#banner {
+	width: 100%;
+	height: 390px;
+	background: url(../images/banner.jpg) repeat center center;
+	overflow: hidden;
+}
+#banner img {
+	width: 100%;
+	height: 100%;
+}
+
+/*广告三则*/
+#ad {
+	width: 100%;
+	height: 300px;
+	text-align: center;
+	margin-top: 20px;
+}
+#ad_son {
+	width: 1207px;
+	height: 100%;
+	line-height: 300px;
+}
+#ad_son img {
+	border-radius: 3px;
+	margin-top: 40px;
+	margin-right: 6px;
+}
+
+/*果园推荐*/
+#recommand {
+	width: 100%;
+	height: 750px;
+}
+#recommand_title {
+	width: 89%;
+	height: 48px;
+	line-height: 50px;
+	background: url(../images/rec-n.jpg) repeat center center;
+}
+#title_word {
+	color: green;
+	font-weight: 900;
+	font-size: 18px;
+}
+#title_eng {
+	color: gray;
+	font-weight: 900;
+	font-size: 12px;
+}
+#recommand_context {
+	width: 82%;
+	height: 100%;
+	margin-top: 30px;
+}
+#recommand_context_left {
+	width: 27%;
+	height: 100%;
+	float: left;
+}
+#recommand_context_right {
+	width: 69%;
+	height: 100%;
+	float: right;
+}
+.salestopsex {
+	width: 240px;
+	height: 330px;
+	float: left;
+	text-align: center;
+}
+.salestopsex_img {
+	width: 260px;
+	height: 200px;
+}
+.salestopsex_img img {
+	width: 100%;
+	height: 100%;
+}
+.salestopsex_name {
+	width: 250px;
+	height: 20px;
+	line-height: 20px;
+	border-bottom: 1px dashed #999999;
+	padding-bottom: 10px;
+}
+.salestopsex_name p a {
+	color: #706D6D;
+	text-decoration: none;
+}
+.goodsname:hover {
+	font-weight: 900;
+	color: green;
+}
+.salestopsex_price {
+	margin-top: 4px;
+}
+.salestopsex_nowprice {
+	color: #4AB344;
+	font-size: 14px;
+	font-weight: 600;
+}
+.salestopsex_oldprice {
+	color: #A6A1A1;
+	font-size: 12px;
+	text-decoration: line-through;
+}
+.salestopsex_buy {
+	width: 164px;
+	height: 30px;
+	line-height: 30px;
+	border-radius: 2px;
+	background-color: #4AB344;
+	margin-top: 4px;
+}
+.salestopsex_buy a {
+	color: white;
+	text-decoration: none;
+}
+
+/*中部两张广告图*/
+#middle_img_two {
+	width: 100%;
+	height: 440px;
+	text-align: center;
+}
+#middle_img_two img {
+	width: 95%;
+	height: 90%;
+}
+#middle_img_two ul {
+	margin-left: 45%;
+	margin-top: 0px;
+}
+#middle_img_two li {
+	float: left;
+	width: 20px;
+	height: 20px;
+	color: white;
+	border-radius: 50%;
+	background-color: #C5C0C0;
+	cursor: pointer;
+	list-style: none;
+	margin-left: 5px;
+}
+
+/*每日新品特卖*/
+#everyday_newgoods {
+	width: 100%;
+	height: 450px;
+	margin-top: 160px;
+}
+#everyday_newgoods_title {
+	width: 70%;
+	height: 100px;
+	text-align: center;
+}
+#everyday_newgoods_title span {
+	color: #9B9595;
+	font-size: 31px;
+	font-weight: 900px;
+}
+#everyday_newgoods_title strong {
+	font-size: 31px;
+	font-weight: 900px;
+}
+#everyday_newgoods_title p {
+	color: #B1AEAE;
+	font-size: 16px;
+}
+#everyday_newgoods_context {
+	width: 78%;
+	height: 341px;
+	margin-top: 30px;
+}
+#everyday_newgoods_context_left {
+	width: 15%;
+	height: 100%;
+	float: left;
+}
+#everyday_newgoods_context_left h2 {
+	padding-bottom: 20px;
+}
+#enc_discount {
+	color: orange;
+	font-size: 42px;
+	font-weight: 800;
+}
+#enc_qi {
+	font-size: 16px;
+	margin-left: 9px;
+}
+#left_look {
+	width: 147px;
+	height: 51px;
+	float: left;
+	line-height: 51px;
+	text-align: center;
+	margin-top: 52px;
+	background-color: #49900F;
+}
+#left_look a {
+	color: white;
+	text-decoration: none;
+}
+#everyday_newgoods_context_right {
+	width: 74%;
+	height: 100%;
+	margin-left: 40px;
+	float: right;
+}
+
+/*新品特卖下四张广告图*/
+#enc_bottom_ad {
+	width: 95%;
+	height: 300px;
+	text-align: center;
+}
+#enc_bottom_ad_son {
+	float: left;
+}
+#enc_bottom_ad_son img {
+	border-radius: 2px;
+	margin-left: 20px;
+}
+
+/*商品资讯*/
+#goods_news {
+	width: 100%;
+	height: 314px;
+}
+#news_title {
+	width: 81%;
+	height: 30px;
+	line-height: 30px;
+	border-bottom: 1px solid #8c8c8c;
+}
+#news_con {
+	width: 82%;
+	height: 314px;
+}
+#news_con_left {
+	width: 47%;
+	height: 70%;
+	float: left;
+	margin-top: 10px;
+	border-right: 1px solid #8c8c8c;
+}
+.new_li_end {
+	margin-left: 132px;
+}
+#news_con_left_con table {
+	width: 70%;
+	height: 51%;
+}
+#news_con_left_con table th {
+	text-align: left;
+	color: #9C9898;
+}
+#news_con_left_con table td {
+	margin-left: 132px;
+}
+#news_con_left_con table td a {
+	color: black;
+	text-decoration: none;
+}
+#news_con_right {
+	width: 47%;
+	height: 70%;
+	float: right;
+	margin-right: 58px;
+	margin-top: 10px;
+}
+#news_con_right img {
+	width: 100%;
+	height: 100%;
+	margin-left: 18px;
+}
+#news_con_right_img_index {
+	width: 50px;
+	height: 20px;
+	float: right;
+	margin-top: 34%;
+}
+#news_con_right_img_index td {
+	width: 10px;
+	height: 10px;
+	color: white;
+	background-color: #A5A2A2;
+	border: 1px solid black;
+}
+#news_con_right_img_index td:hover {
+	cursor: pointer;
+}
