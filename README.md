@@ -9,5 +9,5 @@
 开发环境：<br/>
 	MyEclipse2014、tomcat6、火狐浏览器<br/><br/>
 开发涉及知识：<br/>
-	前端：html、css、js、jQuery(小部分)
+	前端：html、css、js、jQuery(小部分)、ajax<br/>
 	后端：JavaSE、Servlet、JSP、EL表达式
