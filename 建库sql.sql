@@ -1,4 +1,4 @@
-
+﻿
 /*---------------------------纯建库脚本---------------------------*/
 
 /*********建库*************/
@@ -187,9 +187,9 @@ INSERT INTO CustomerInfo VALUES (NULL,'d@sina.com','123456','2009-06-09 12:30:35
 
 
 -- 客户详细信息
-INSERT INTO CustomerDetailInfo VALUES (1,'张三','32456754','13534563234','重庆市沙坪坝区足下软件学院A区');
-INSERT INTO CustomerDetailInfo VALUES (2,'李斯','32456754','13534563234','重庆市沙坪坝区足下软件学院B区');
-INSERT INTO CustomerDetailInfo VALUES (3,'王五','32456754','13534563234','重庆市沙坪坝区足下软件学院C区');
+INSERT INTO CustomerDetailInfo VALUES (1,'张三','32456754','13534563234','重庆市');
+INSERT INTO CustomerDetailInfo VALUES (2,'李斯','32456754','13534563234','重庆市');
+INSERT INTO CustomerDetailInfo VALUES (3,'王五','32456754','13534563234','重庆市');
 
 
 -- 订单信息
