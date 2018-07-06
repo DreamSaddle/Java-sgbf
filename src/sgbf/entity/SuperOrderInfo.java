@@ -2,6 +2,7 @@ package sgbf.entity;
 
 public class SuperOrderInfo {
 
+	//该类无实际作用
 	private CustomerInfo customer;
 	private OrderInfo order;
 	private OrderGoodsInfo ordergood;
