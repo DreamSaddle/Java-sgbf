@@ -172,10 +172,11 @@ function getRegisterVerifyCode() {
 		return;
 	}
 
+	//发送请求，获取验证码
 	var xmlHttp = getXMLHttpRequest();
 	xmlHttp.open("post", "customerInfoServlet", true);
 	xmlHttp.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
-	xmlHttp.send("op=getregisterverifycode");
+	xmlHttp.send("op=getregisterverifycode&email="+email.value.trim());
 	xmlHttp.onreadystatechange = function() {
 		if(xmlHttp.readyState == 4 && xmlHttp.status == 200) {
 			var content = xmlHttp.responseText;
