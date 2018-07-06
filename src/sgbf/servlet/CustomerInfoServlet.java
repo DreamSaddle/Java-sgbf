@@ -1,4 +1,4 @@
-﻿package sgbf.servlet;
+package sgbf.servlet;
 
 import java.awt.image.BufferedImage;
 import java.io.IOException;
@@ -209,12 +209,13 @@ public class CustomerInfoServlet extends HttpServlet {
 			String code = verifyCode.getVerfiyCode_();
 			
 			request.getSession().setAttribute("verifycode", code);
+			//注册邮箱
+			String registerEmail = request.getParameter("email");
 			
 			System.out.println(code);
 			//发送验证码至用户邮箱
-			//这里使用了自己封装的jar包，如需了解，请联系我：qq-1289747698
-			Session session =  GetSession.getSession("邮箱服务器", true, "邮箱名称", "邮箱授权码");
-			MimeMessage message = SetMimeMessage.setMessage(session, "发件人", "收件人", "", "", "欢迎使用水果缤纷", "您此次的验证码为："+code);
+			Session session =  GetSession.getSession("smtp.163.com", true, "user_taohan", "taohan163");
+			MimeMessage message = SetMimeMessage.setMessage(session, "user_taohan@163.com", registerEmail, "", "", "欢迎使用水果缤纷", "您此次的验证码为："+code);
 			IsSend.isSend(message);
 			System.out.println("发送成功");
 			
